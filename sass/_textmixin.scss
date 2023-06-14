@@ -1,0 +1,74 @@
+@use 'variable' as *;
+@use 'compmixin' as *;
+
+
+// --------FONT-size Weight Family MIXINS   STARTS------//
+
+// ///ROBOTO/////
+
+@mixin font-lgt{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: $font-family;
+}
+
+@mixin font-reg{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: $font-family;
+}
+
+@mixin font-rob-med{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: $font-family;
+}
+
+@mixin font-rob-sm-bld{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: $font-family;
+}
+
+// UBUNTU FONT
+
+@mixin font-ubu-med{
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: $top-heading;
+}
+
+@mixin font-ubu-bold{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: $top-heading;
+}
+
+// -------       CARD PARA MIXIN    -----////
+@mixin crd-para{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: $font-family; 
+    color:$black-text-color;
+}
+
+
+// ------- TOP Heading Mixin ------//
+@mixin top-h2-heading{
+    @include font-rob-sm-bld;
+    color:$black-text-color;
+    padding:2rem;
+}
+
+ // ------- Paragraph Mixin ------//
+ @mixin para-1{
+   font-size: 1.1rem;
+      font-weight: 400;
+      font-family: $font-family; 
+      color:$black-text-color; 
+ }
+
+
+
+      
+    

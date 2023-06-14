@@ -1,0 +1,118 @@
+
+
+
+.blogs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* .left-side{
+display: flex;
+} */
+.left-side img{
+     width:100%; 
+    height:360px;
+}
+.blog-subheading h3{
+  padding:2rem;
+}
+.blog-top-heading h1{
+    font-weight: 600;
+    font-family: "roboto", sans-serif;
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    color:#343434;
+}
+
+ .blog-post{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+ /* margin:3.5rem; */
+} 
+
+ /* .blog-post img{
+    /* width:100%; */
+     /* height:45%; */
+
+
+.blog-post .card-body p {
+ width:100%;
+ font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #343434;
+}
+@media screen and (max-width: 1024px) {
+    .blogs h3{
+       
+        margin-inline: 1.7rem;
+    }
+    .blog-section .blog-div .card {
+     width: 100%;
+     margin-block: 4rem;
+   }
+   .blog-section .blog-div .card p{
+       font-size: 0.5rem;
+      
+   }
+  }
+
+ 
+
+  @media screen and (max-width: 769px) {
+    .blogs h3{
+       
+        margin-inline: 1.2rem;
+    }
+     .blog-section .blog-div .card {
+      width: 30%;
+      margin-block: 1.5rem;
+    }
+    .blog-section .blog-div .card p{
+        font-size: 0.2rem;
+        font-weight: 400;
+      
+    }
+   }
+  
+   
+  @media screen and (max-width: 576px) {
+  
+   
+    .blog-section .blog-div .card {
+      width: 100%;
+      margin-block: 1.5rem;
+    }
+   }
+  
+   @media screen and (max-width: 468px) {
+    .blog-section .row{
+      margin-inline-start: 2rem;
+     
+      }
+  
+     .blog-section .blog-div .card {
+     display: block;
+     width:100%;
+      margin-block: 1.5rem;
+    }
+  }
+  
+   
+    @media screen and (max-width: 360px) {
+      .blog-section .row{
+        margin-inline-start: 1.5rem;
+        /* margin-inline:4.5rem; */
+        }
+      .col-lg-3{
+       margin-block: 1.5rem;
+       /* margin-inline-end: 1rem; */
+    }
+    .blog-section .blog-div .card {
+      width: 100%;
+      margin-block: 1.5rem;
+      } 
+    }

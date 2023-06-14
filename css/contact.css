@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* //////////-------- CONTACT START-------///////////  */
+
+
+ .contact-box{
+  margin:2rem;
+  display:flex;
+
+}
+
+.contact-left-side{
+  background-color: #c9f0ff;
+   padding: 2.2rem;
+   color:#343434 ;
+}
+.contact-left-side h3{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.contact-left-side p{
+  width:80%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.email-section {
+  padding-bottom: 1rem;
+}
+.social-section {
+  padding-bottom: 1rem;
+}
+.text-section {
+  padding-bottom: 1rem;
+}
+.time-section {
+  padding-bottom: 1rem;
+}
+.social-section span{
+padding:0.5rem;
+
+}
+
+
+
+  /* contact-right-side */
+.cotact-right-side{
+  display: flex;
+  color:#343434 ;
+  padding: 2.5rem;
+    font-weight: 600;
+   font-family: "Poppins", sans-serif; 
+}
+
+.cotact-right-side input{
+  padding:0.8rem;
+
+}
+
+/* Msg Button */
+.cotact-right-side button{
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border-radius: 2rem;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  border: 3px solid #0B2D47;
+  margin: 14px;
+  background-color: transparent;
+  /* background-color:#082632; ; */
+  color: #0B2D47;
+}
+
+.cotact-right-side button:hover{
+  background-color: #0B2D47;
+  border: 3px solid #0B2D47;
+  color:white;
+}

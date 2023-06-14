@@ -1,0 +1,43 @@
+
+// IMPORT THE COMPONENT FILES
+@use 'variable';
+@use 'textmixin';
+@use 'compmixin';
+
+// NAVBAR FILE
+@use 'navbar';
+
+
+// IMPORT THE PAGE FILES
+@use 'home';
+@use 'about';
+@use 'gallery';
+@use 'blog';
+
+// FOOTER FILE
+@use 'footer';
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+.row{
+    justify-content: center;
+}
+
+// p{
+//     font-size: small;
+//     // @include para;
+//   }
+// .container{
+
+// }
+
+// body{
+ 
+// }

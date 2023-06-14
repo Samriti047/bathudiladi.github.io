@@ -1,0 +1,60 @@
+/* for ipads */
+@media screen and (max-width: 768px) {
+   /* hero-section */
+    header .hero-items h3{
+      font-size: 1.9rem;
+    }
+    
+    header .hero-items h1{
+      font-size:2.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* blog section */
+    .col-lg-3{
+        margin-block: 1.5rem;
+        margin-inline: 6rem;
+       }
+       .blog-section .blog-div .card {
+         width: 70%;
+       }
+        /* video section */
+        .video-section .vid-sec{
+            height:350px;
+          }
+          /* ------ newsletter-section ------  */
+          .newsletter-section .subscribe-form {
+            width: 50%;
+          }
+
+
+  }
+
+  /* for mobile phones */
+  @media screen and (max-width: 468px) {
+   /* hero-section */
+    header .hero-items h3{
+      font-size: 1.2rem;
+    }
+    
+    header .hero-items h1{
+      font-size: 1.3rem;
+    }
+     /* blog section */
+     .col-lg-3{
+        margin-block: 1.5rem;
+        margin-inline-end: 1rem;
+     }
+        /* video section */
+        .video-section .vid-sec{
+            height:200px;
+          }
+
+ /* ------ newsletter-section ------  */
+ .newsletter-section .subscribe-form {
+    width: 90%;
+  }
+
+
+
+  }

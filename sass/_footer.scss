@@ -1,0 +1,23 @@
+@use 'variable' as *;
+@use 'compmixin' as *;
+@use 'textmixin' as *;
+
+// FOOTER  ////
+
+footer{
+    background-color:$footer-color;
+a{
+    text-decoration: none;
+}
+    .footer-section{
+        .footer-top-heading{
+@include top-h2-heading;
+        }
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+}

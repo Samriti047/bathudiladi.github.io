@@ -1,0 +1,25 @@
+
+/* .about-page-content {
+    background-image: url(../assets/img31.jpg);
+    position: cover;
+    
+} */
+
+
+
+.about-page-content h1{
+    font-weight: 600;
+    font-family: "roboto", sans-serif;
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    color: #343434;
+   }
+
+.about-page-content p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #343434;
+  
+}
